@@ -1,16 +1,27 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Bar from './Bar';
 
-export default Profile = (props) => {
-  const {displayPicture, name, skills} = props;
+const Profile = (props) => {
+  const {displayPicture, name, skills} = props.person;
+  console.log(props);
   return (
     <div>
-
+      <img src={displayPicture}/>
+      <p>{name}</p>
+      <div>
+        <ul>
+          {
+            skills.map((skill, index) =>
+              <li key={index}>
+                <span>{skill[0]}</span>
+                <Bar value={skill[1]}></Bar>
+              </li>
+            )
+          }
+        </ul>
+      </div>
     </div>
   )
 }
 
-
-Profile.propTypes = {
-  person: PropTypes.object
-}
+export default Profile;
