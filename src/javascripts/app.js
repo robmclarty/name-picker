@@ -126,7 +126,7 @@ const people = [
       ['interactionDesign', 10]
     ]
   }
-]
+];
 
 ReactDOM.render(
   <Container people={people} />,
