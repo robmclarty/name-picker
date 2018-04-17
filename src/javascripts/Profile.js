@@ -1,13 +1,12 @@
 import React from 'react';
 import Bar from './Bar';
 
-const Profile = (props) => {
-  const {displayPicture, name, skills} = props.person;
-
-  if (props.person) {
+const Profile = ({ person }) => {
+  const {displayPicture, name, skills} = person;
+  if (person) {
     return (
       <div className='profile'>
-        <img src={displayPicture}/>
+        <img src={displayPicture} className='-img'/>
         <p>{name}</p>
         <div>
           <ul className='-skill-list'>

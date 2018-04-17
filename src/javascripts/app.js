@@ -127,7 +127,7 @@ const people = [
       ['interactionDesign', 10]
     ]
   }
-]
+];
 
 ReactDOM.render(
   <div className="name-picker">
