@@ -1,20 +1,14 @@
 import React from 'react'
 import SuggestibleInput from 'suggestible-input'
-//import SuggestibleInput from '../../../tool-boxes/suggestible-input/src/suggestible-input.js'
 
-var suggestions = [
-  'Toronto',
-  'Montreal',
-  'Ottawa',
-  'Vancouver',
-  'Edmonton',
-  'Calgary'
-]
+const SearchInput = ({ people }) => {
+  const names = people.map(person => person.name)
 
-const SearchInput = ({ people }) => (
-  <div className="search-input">
-    <SuggestibleInput suggestions={suggestions} />
-  </div>
-)
+  return (
+    <div className="search-input">
+      <SuggestibleInput suggestions={names} />
+    </div>
+  )
+}
 
 export default SearchInput
