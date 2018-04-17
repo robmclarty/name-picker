@@ -175,10 +175,10 @@ const person = {
   skills: [
     ['html', 5],
     ['css', 10],
-    ['javaScript', 10],
-    ['visualDesign', 9],
-    ['invision', 8],
-    ['interactionDesign', 10]
+    ['JavaScript', 10],
+    ['Visual Design', 9],
+    ['Invision', 8],
+    ['Interaction Design', 10]
   ]
 }
 
