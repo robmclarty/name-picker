@@ -9,12 +9,12 @@ const Profile = (props) => {
       <img src={displayPicture}/>
       <p>{name}</p>
       <div>
-        <ul>
+        <ul className='-skill-list'>
           {
             skills.map((skill, index) =>
-              <li key={index} className='-skill-list'>
+              <li key={index}>
                 <span>{skill[0]}</span>
-                <Bar value={skill[1]}></Bar>
+                <Bar value={skill[1]}/>
               </li>
             )
           }
