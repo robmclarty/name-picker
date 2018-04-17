@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAAA;EACA,cAAA;EACA,iBAAA,EACA","file":"application.css","sourcesContent":[".search-input {\n  padding: 30px;\n  background: grey;\n}\n"]}
