@@ -8,7 +8,7 @@ import SearchInput from './SearchInput.js'
 
 const people = [
   {
-    displayPicture: 'images/avatar/face1.jpg',
+    displayPicture: 'images/avatars/face1.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -24,7 +24,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face2.jpg',
+    displayPicture: 'images/avatars/face2.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -40,7 +40,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face3.jpg',
+    displayPicture: 'images/avatars/face3.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -56,7 +56,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face4.jpg',
+    displayPicture: 'images/avatars/face4.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -72,7 +72,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face5.jpg',
+    displayPicture: 'images/avatars/face5.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -88,7 +88,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face6.jpg',
+    displayPicture: 'images/avatars/face6.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -104,7 +104,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face7.jpg',
+    displayPicture: 'images/avatars/face7.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -120,7 +120,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face8.jpg',
+    displayPicture: 'images/avatars/face8.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -136,7 +136,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face9.jpg',
+    displayPicture: 'images/avatars/face9.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -152,7 +152,7 @@ const people = [
     }
   },
   {
-    displayPicture: 'images/avatar/face10.jpg',
+    displayPicture: 'images/avatars/face10.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -170,7 +170,7 @@ const people = [
 ]
 
 const person = {
-  displayPicture: 'images/avatar/face1.jpg',
+  displayPicture: 'images/avatars/face1.jpg',
   name: 'Sudar Ganes',
   skills: [
     ['html', 5],
