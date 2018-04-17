@@ -10,13 +10,16 @@
     "build:css": "npx soko build:css ./src/styles/app.scss",
     "build": "npm run build:js && npm run build:assets && npm run build:css"
   },
-  "author": "",
+  "author": "Myplanet",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:robmclarty/name-picker.git"
+  },
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
     "soko": "^0.2.4",
-    "suggestible-input": "^1.3.0"
+    "suggestible-input": "1.3.0"
   }
 }
