@@ -11,7 +11,7 @@ const Container = (props, context) => {
   }
 
   const initialState = {
-    selectedPerson: {}
+    selectedPerson: null
   }
 
   const choosePerson = name => {

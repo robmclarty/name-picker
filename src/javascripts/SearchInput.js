@@ -7,8 +7,8 @@ const SearchInput = ({
 }) => {
   const names = people.map(person => person.name)
 
-  const onChoose = name => {
-    choosePerson(name)
+  const onChoose = e => {
+    choosePerson(e.name)
   }
 
   return (
