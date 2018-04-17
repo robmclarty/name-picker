@@ -103,4 +103,8 @@
   background-color: transparent;
   cursor: default; }
 
+.bar {
+  height: 10px;
+  background-color: deepskyblue; }
+
 /*# sourceMappingURL=application.css.map */
