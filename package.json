@@ -4,8 +4,19 @@
   "description": "Pick names, get data.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "npx soko build:js ./src/javascripts/app.js",
+    "build:assets": "npx soko build:assets ./src/assets",
+    "build:css": "npx soko build:css ./src/styles/app.scss",
+    "build": "npm run build:js && npm run build:assets && npm run build:css"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "soko": "^0.2.4",
+    "suggestible-input": "^1.3.0"
+  }
 }
