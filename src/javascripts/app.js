@@ -3,8 +3,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Profile from './Profile.js'
-import SearchInput from './SearchInput.js'
+import Container from './Container'
 
 const people = [
   {
@@ -130,9 +129,6 @@ const people = [
 ]
 
 ReactDOM.render(
-  <div className="name-picker">
-    <SearchInput people={people} />
-    <Profile person={people[0]} />
-  </div>,
+  <Container people={people} />,
   document.getElementById('app-container')
 )
