@@ -22,6 +22,7 @@ const Container = (props, context) => {
 
   const render = () => (
     <div className="name-picker">
+      <h1>Burrow</h1>
       <SearchInput choosePerson={choosePerson} people={component.props.people} />
       <Profile person={component.state.selectedPerson} />
     </div>

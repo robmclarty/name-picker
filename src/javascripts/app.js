@@ -5,125 +5,127 @@ import ReactDOM from 'react-dom'
 
 import Container from './Container'
 
+const makeNum = () => Math.floor(Math.random() * 10) + 1
+
 const people = [
   {
     displayPicture: 'images/avatars/face1.jpg',
     name: 'David Cunningham',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face2.jpg',
     name: 'Ann McCoy',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face3.jpg',
     name: 'Mary Schuelke',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face4.jpg',
     name: 'James Bell',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face5.jpg',
     name: 'Don Tull',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face6.jpg',
     name: 'Jennifer Scarlett',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face7.jpg',
     name: 'Sudar Ganes',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face8.jpg',
     name: 'Son Greenleaf',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face9.jpg',
     name: 'Tina Tibbetts',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   },
   {
     displayPicture: 'images/avatars/face10.jpg',
     name: 'John Newton',
     skills: [
-      ['html', 5],
-      ['css', 10],
-      ['javaScript', 10],
-      ['visualDesign', 9],
-      ['invision', 8],
-      ['interactionDesign', 10]
+      ['HTML', makeNum()],
+      ['CSS', makeNum()],
+      ['Javascript', makeNum()],
+      ['Visual Design', makeNum()],
+      ['Invision', makeNum()],
+      ['Interaction Design', makeNum()]
     ]
   }
 ];

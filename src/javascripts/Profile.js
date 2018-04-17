@@ -6,23 +6,25 @@ const Profile = ({ person }) => {
     return (
       <div className='profile'>
         <img src={person.displayPicture} className='-img'/>
-        <p>{person.name}</p>
+        <h2>{person.name}</h2>
         <div>
-          <ul className='-skill-list'>
+          <table className='-skill-list'>
+            <tbody>
             {
               person.skills.map((skill, index) =>
-                <li key={index}>
-                  <span>{skill[0]}</span>
-                  <Bar value={skill[1]}/>
-                </li>
+                <tr key={index}>
+                  <td><span>{skill[0]}</span></td>
+                  <td><Bar value={skill[1]}/></td>
+                </tr>
               )
             }
-          </ul>
+            </tbody>
+          </table>
         </div>
       </div>
     )
   } else {
-    return <div>Type to search!</div>
+    return <div></div>
   }
 
 }
