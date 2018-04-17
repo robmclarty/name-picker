@@ -8,7 +8,151 @@ import SearchInput from './SearchInput.js'
 
 const people = [
   {
-    displayPicture: 'https://media.licdn.com/dms/image/C4E03AQGtNUSpc-Jcjw/profile-displayphoto-shrink_800_800/0?e=1529172000&v=beta&t=hrX1a6H6qsU2f0kvufeEgp7ZiIzFybYn5HOPPO0yn1w',
+    displayPicture: 'images/avatar/face1.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face2.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face3.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face4.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face5.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face6.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face7.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face8.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face9.jpg',
+    name: 'Sudar Ganes',
+    skills: {
+      dev: [
+        {html: 5},
+        {css: 10},
+        {javaScript: 10}
+      ],
+      design: [
+        {visualDesign: 9},
+        {invision: 8},
+        {interactionDesign: 10}
+      ]
+    }
+  },
+  {
+    displayPicture: 'images/avatar/face10.jpg',
     name: 'Sudar Ganes',
     skills: {
       dev: [
@@ -26,7 +170,7 @@ const people = [
 ]
 
 const person = {
-  displayPicture: 'https://media.licdn.com/dms/image/C4E03AQGtNUSpc-Jcjw/profile-displayphoto-shrink_800_800/0?e=1529172000&v=beta&t=hrX1a6H6qsU2f0kvufeEgp7ZiIzFybYn5HOPPO0yn1w',
+  displayPicture: 'images/avatar/face1.jpg',
   name: 'Sudar Ganes',
   skills: [
     ['html', 5],
